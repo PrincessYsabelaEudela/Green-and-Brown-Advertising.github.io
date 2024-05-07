@@ -1,0 +1,32 @@
+.hero-content{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg{
+    background-image: url(../../img/cs.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e3d8c2;
+    width: auto;
+    height: 50%;
+    background-position: center;
+}
+
+
+.list{
+    column-count: 2;
+}
+
+.list ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.text p{
+    font-weight: 500;
+}

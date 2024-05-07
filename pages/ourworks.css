@@ -1,0 +1,14 @@
+@import "../stye.css" screen;
+
+.hero-content{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.works{
+    background-color: var(--background-50);
+  }

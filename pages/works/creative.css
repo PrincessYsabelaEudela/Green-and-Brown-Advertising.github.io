@@ -1,0 +1,66 @@
+@import "../../stye.css" screen;
+
+.hero-content{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.img-container img{
+    width: 375px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.creative .padding-block-700 .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container img:hover{
+    transform: scale(1.05);
+    cursor: zoom-in;
+}
+
+.popup-img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    z-index: 1002;
+    display: none;
+}
+
+.popup-img span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+}
+
+.popup-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

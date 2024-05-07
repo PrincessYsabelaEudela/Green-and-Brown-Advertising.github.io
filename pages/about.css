@@ -1,0 +1,21 @@
+@import "../stye.css" screen;
+
+
+/* .container{
+    border: 2px solid red;
+} */
+
+.hero-content{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.even-columns {
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+}
