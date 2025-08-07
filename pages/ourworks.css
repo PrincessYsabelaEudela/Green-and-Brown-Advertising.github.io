@@ -12,3 +12,8 @@
 .works{
     background-color: var(--background-50);
   }
+
+.box img{
+    width: 100%;
+    height: auto;
+}

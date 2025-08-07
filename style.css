@@ -733,8 +733,8 @@ h2{
   cursor: pointer;
   margin-bottom: 15px;
   box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-  height: 300px;
-  width: auto;
+  height: auto;
+  width: 100%;
   overflow: hidden;   
 }
 
